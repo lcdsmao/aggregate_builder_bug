@@ -1,0 +1,7 @@
+builders:
+  aggBuilder:
+    import: 'package:agg_build/builder.dart'
+    builder_factories: ['aggBuilder']
+    build_extensions: { '$package$': ['lib/foo.gen.dart', 'lib/bar.gen.dart'] }
+    auto_apply: root_package
+    build_to: source
